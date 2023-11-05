@@ -8,12 +8,13 @@ function ProfilePage() {
 
 export default ProfilePage;
 
-/*
+
 export async function getServerSideProps(context){
 
   const session = await getSession({ req: context.req });
+  console.log(session);
 
-  if(!session){
+  /*if(!session){
     return {
       redirect : {
         destination : '/auth',
@@ -24,7 +25,6 @@ export async function getServerSideProps(context){
 
   return {
     props: {session},
-  }
+  }*/
 
 }
-*/

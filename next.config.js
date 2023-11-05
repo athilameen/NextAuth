@@ -26,8 +26,8 @@ const nextConfig = (phase) => {
       mongodb_clustername: 'cluster0',
       mongodb_database: 'nextauth',
       NEXTAUTH_SECRET: 'LlKq6ZtYbr+hTC073mAmAh9/h2HwMfsFo4hrfCx5mLg=',
-      NEXT_URL: 'https://next-auth-three-beta.vercel.app',
-      NEXTAUTH_URL: 'https://next-auth-three-beta.vercel.app',
+      NEXT_URL: 'https://next-auth-git-main-athilameens-projects.vercel.app/',
+      NEXTAUTH_URL: 'https://next-auth-git-main-athilameens-projects.vercel.app/',
     },
     reactStrictMode: true,
   }
